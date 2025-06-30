@@ -1,0 +1,11 @@
+ Yedekleme başladı : 2025-06-30 12:37:00)
+$ sudo btrfs subvolume snapshot -r /mnt/source/data /mnt/source/snap/snapshot-20250630-123700
+Create a readonly snapshot of '/mnt/source/data' in '/mnt/source/snap/snapshot-20250630-123700'
+$ sudo btrfs send /mnt/source/snap/snapshot-20250630-123700 | ssh oguzhan@localhost 'sudo btrfs receive /mnt/backup'
+Stderr: At subvol /mnt/source/snap/snapshot-20250630-123700
+At subvol snapshot-20250630-123700
+
+Yedekleme bitti 2025-06-30 12:37:09
+Süre: 0:00:09.165881
+Snapshot oluşturuldu: /mnt/source/snap/snapshot-20250630-123700
+Yedekleme başarılı.

@@ -18,7 +18,8 @@
           "/mnt/btrfs-test/@project",
           "/mnt/btrfs-test/@snap"
         ],
-        "console": "integratedTerminal"
+        "console": "integratedTerminal",
+        "cwd":"${workspaceFolder}/Project1"
       }
     ]
   }
