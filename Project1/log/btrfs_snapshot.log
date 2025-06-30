@@ -1,0 +1,6 @@
+2025-06-30 11:06:35,957 - DEBUG - Çalışıyor: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/snapshot-20250630-110635
+2025-06-30 11:06:35,989 - INFO - Komut başarılı: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/snapshot-20250630-110635
+2025-06-30 11:06:35,989 - INFO - Anlık görüntü oluşturuldu: /mnt/btrfs-test/snapshot-20250630-110635
+2025-06-30 11:06:53,929 - DEBUG - Çalışıyor: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/snapshot-20250630-110653
+2025-06-30 11:06:53,960 - INFO - Komut başarılı: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/snapshot-20250630-110653
+2025-06-30 11:06:53,960 - INFO - Anlık görüntü oluşturuldu: /mnt/btrfs-test/snapshot-20250630-110653
