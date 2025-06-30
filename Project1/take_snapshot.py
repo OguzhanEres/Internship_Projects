@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 import sys, subprocess,argparse,logging
 from datetime import datetime
-
+from pathlib import Path
+LOG_PATH = Path(__file__).parent / "log" / "btrfs_snapshot.log"
+LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 logging.basicConfig(
     level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("Project1/log/btrfs_snapshot.log"),
+        logging.FileHandler(LOG_PATH),
         logging.StreamHandler(sys.stdout)
-    ]
+        ]
 )
-
 
 def run(cmd:list):
     logging.debug("Çalışıyor: %s", ' '.join(cmd))
