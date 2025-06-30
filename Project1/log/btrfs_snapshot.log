@@ -4,3 +4,15 @@
 2025-06-30 11:06:53,929 - DEBUG - Çalışıyor: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/snapshot-20250630-110653
 2025-06-30 11:06:53,960 - INFO - Komut başarılı: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/snapshot-20250630-110653
 2025-06-30 11:06:53,960 - INFO - Anlık görüntü oluşturuldu: /mnt/btrfs-test/snapshot-20250630-110653
+2025-06-30 11:28:58,859 - DEBUG - Çalışıyor: sudo btrfs subvolume snapshot /mnt/data/@project /mnt/data/snapshot-20250630-112858
+2025-06-30 11:29:01,614 - ERROR - Komut başarısız: sudo btrfs subvolume snapshot /mnt/data/@project /mnt/data/snapshot-20250630-112858
+2025-06-30 11:29:01,615 - ERROR - Hata mesajı: ERROR: Could not statfs: No such file or directory
+2025-06-30 11:29:04,565 - DEBUG - Çalışıyor: sudo btrfs subvolume snapshot /mnt/data/@project /mnt/data/snapshot-20250630-112904
+2025-06-30 11:29:04,576 - ERROR - Komut başarısız: sudo btrfs subvolume snapshot /mnt/data/@project /mnt/data/snapshot-20250630-112904
+2025-06-30 11:29:04,577 - ERROR - Hata mesajı: ERROR: Could not statfs: No such file or directory
+2025-06-30 11:31:36,648 - DEBUG - Çalışıyor: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/@snap/snapshot-20250630-113136
+2025-06-30 11:31:42,692 - ERROR - Komut başarısız: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/@snap/snapshot-20250630-113136
+2025-06-30 11:31:42,703 - ERROR - Hata mesajı: ERROR: cannot access '/mnt/btrfs-test/@snap': No such file or directory
+2025-06-30 11:32:23,516 - DEBUG - Çalışıyor: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/@snap/snapshot-20250630-113223
+2025-06-30 11:32:23,536 - INFO - Komut başarılı: sudo btrfs subvolume snapshot /mnt/btrfs-test/@project /mnt/btrfs-test/@snap/snapshot-20250630-113223
+2025-06-30 11:32:23,536 - INFO - Anlık görüntü oluşturuldu: /mnt/btrfs-test/@snap/snapshot-20250630-113223
